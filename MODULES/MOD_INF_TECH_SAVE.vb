@@ -678,7 +678,8 @@ Err_:
                     Case 0
 
                     Case Else
-                        MsgBox("Заполните поле 'Отдел' или удалите значение поля 'Кабинет' ", MsgBoxStyle.Exclamation, ProGramName)
+
+                        MsgBox("Заполните поле 'Отдел' \nили удалите значение поля 'Кабинет' ", MsgBoxStyle.Exclamation, ProGramName)
                         Exit Sub
 
                 End Select
